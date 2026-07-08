@@ -1,5 +1,5 @@
 # Bypass-Intune-Wallpaper
-
+```
 $img="C:\Wallpapers\wallpaper.jpg"
 $theme="$env:APPDATA\Microsoft\Windows\Themes"
 
@@ -10,3 +10,4 @@ Stop-Process -Name explorer -Force
 Start-Process explorer
 
 Then put it schedule on logon
+```
